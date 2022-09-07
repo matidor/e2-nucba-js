@@ -107,7 +107,7 @@ const pizzaId = () => {
         return;
 
     } else if (
-        nuevoPizzas = Pizzas.filter(pizza => pizza.id === parseInt(filterId))
+        nuevoPizzas = pizzas.filter(pizza => pizza.id === parseInt(filterId))
     ) {
         errorMessage.style.visibility = 'hidden';
     }
@@ -140,4 +140,4 @@ const init = () => {
 }
 
 init();
-console.log('working on process of beign a javascript ninja')
+console.log('')

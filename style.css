@@ -3,10 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
-    background-color: #2A2E45;
+    background: #212121;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
 }
@@ -15,8 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
+    
 }
 
 .container {
@@ -31,17 +31,17 @@ body {
 }
 
 h1 {
-    color: yellow
+    color: #FF6D8A
 }
 
 .selection {
-    padding: 30px;
+    padding: 10px;
 }
 
 .seleccionar input {
     width: 100%;
-    max-width: 250px;
-    height: 25px;
+    max-width: 350px;
+    height: 20px;
     border-radius: 10px;
     text-align: center;
 }
@@ -49,30 +49,33 @@ h1 {
 .seleccionar input p {
     padding-left: 1rem;
     font-size: large;
+    
 }
 
 .seleccionar input p::placeholder {
     padding-left: 2rem;
     text-align: center;
+    border-radius: 8px;
 }
 
 .seleccionar-btn {
-    margin: 20px;
-    width: 150px;
+    margin: 25px;
+    width: 300px;
     padding: 10px;
-    border-radius: 1rem;
-    color: black;
-    background-color: coral
+    border-radius: 8px;
+    color: #43316A;
+    background-color: #AE8AFF;
+    cursor: pointer;
 }
 
 .title p {
-    color: limegreen;
+    color: rgb(240, 223, 128);
 }
 
 .message {
-    color: green;
+    color: rgb(240, 223, 128);
 }
 
 .precio p {
-    color: lime
+    color: rgb(255, 255, 255)
 }

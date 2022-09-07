@@ -1,42 +1,42 @@
 const pizzas = [{
     id: 1,
     nombre: "Muzza de Cancha",
-    precio: 900,
+    precio: 890,
     Ingredientes: ['Muzarela', 'Oregano', 'Tomate'],
   },
 
   {
     id: 2,
     nombre: "La Mauro Zeta",
-    precio: 1300,
+    precio: 1299,
     Ingredientes: ['Muzarela', 'Cebolla', 'Oregano'],
   },
 
   {
     id: 3,
-    nombre: "Pizza Napolitana",
-    precio: 1450,
+    nombre: "Pizza Napo con Ajo",
+    precio: 1449,
     Ingredientes: ['Muzarela', 'Tomate', 'Ajo'],
   },
 
   {
     id: 4,
     nombre: "Pizza 4 Quesos",
-    precio: 1700,
+    precio: 1699,
     Ingredientes: ['Muza', 'Roquefort', 'Parmesano', 'Provolone'],
   },
 
   {
     id: 5,
-    nombre: "Pizza Espacial",
-    precio: 1600,
+    nombre: "Pizza 420",
+    precio: 1420,
     Ingredientes: ['Muza', 'Cebolla Morada', 'Burrata', 'Calabresa'],
   },
 
   {
     id: 6,
     nombre: "Pizza Biss",
-    precio: 1400,
+    precio: 1380,
     Ingredientes: ['Doble Muzza', 'Cornicione Relleno'],
   },
 ];
@@ -123,14 +123,14 @@ const createHtmlPizza = pizzas => {
 }
 
 const createHtmlErrorNoneText = () => {
-    return `<h3 class="message">Por favor, elegi una opcion !</h3>`
+    return `<h3 class="message">hora de que elijamos juntos</h3>`
 }
 
 const createHtmlErrorOptions = () => {
-    return `<h3 class="message">Por favor, elíge opciones de 1 a 6 !</h3>`
+    return `<h3 class="message">Estamos trabajando para darte mas opciones, podes elegir de la 1 a la 6</h3>`
 }
 
-const renderPizza = pizza => infoPizza.innerHTML = pizza.map(pizzita => createHtmlPizza(pizzita))
+const renderPizza = pizza => infoPizza.innerHTML = pizza.map(pizzasa => createHtmlPizza(pizzasa))
 
 
 

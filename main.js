@@ -35,7 +35,7 @@ const pizzas = [{
 
   {
     id: 6,
-    nombre: "Pizza Biss",
+    nombre: "Pizza don vito",
     precio: 1380,
     Ingredientes: ['Doble Muzza', 'Cornicione Relleno'],
   },
